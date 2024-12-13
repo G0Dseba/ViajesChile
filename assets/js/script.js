@@ -17,7 +17,28 @@ document.addEventListener('DOMContentLoaded', function(){
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl);
     });
-    $("#enviarCorreo").click(function () {
+    $("#enviar").click(function () {
         alert("El formulario fue enviado correctamente...");
+    });
+});
+
+//cambio color a azul
+$(document).ready(function () {
+    $("#quien").on("dblclick", function () {
+        $(this).css("color", "blue");
+    });
+});
+
+//cambio color a rojo
+$(document).ready(function () {
+    $("#destacados").on("dblclick", function () {
+        $(this).css("color", "red");
+    });
+});
+
+//cambio color a amarillo
+$(document).ready(function () {
+    $("#contacto").on("dblclick", function () {
+        $(this).css("color", "yellow");
     });
 });

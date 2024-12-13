@@ -80,12 +80,12 @@
     <section>
         <div class="container bg-black mt-5">    
             <div class=" row text-white text-center " data-bs-title="Enviar por Correo " >
-                <p class=" fs-4 fs-2 "> ¿QUIENES SOMOS? </p>  
+                <p class=" fs-4 fs-2 " id="quien"> ¿QUIENES SOMOS? </p>  
                 <p class="px-4"> <HR size="5" width="97%" align="center">  </p> 
             </div>
             <div class="row  justify-content-around ">
 
-                <div class="card bg-black" style="width: 23rem;">
+                <div class="card bg-black" id="carta1">
                     <div class="card-body  bg-black">
                         <li class="list-group-item bg-info text-center">
                             <i class="fa-solid fa-plane fa-2x text-white bg-info "></i>  
@@ -97,7 +97,7 @@
                     </div>
                 </div>
 
-                <div class="card bg-black" style="width: 23rem;">
+                <div class="card bg-black" id="carta1">
                     <div class="card-body  bg-black">
                         <p class="text-left letra text-white ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus Nullan fermentum turpis et dolor euismod consequat sed sed ante. 
@@ -109,7 +109,7 @@
                     </div>   
                 </div> 
 
-                <div class="card bg-black" style="width: 23rem;">
+                <div class="card bg-black" id="carta1">
                     <div class="card-body  bg-black">
                         <li class="list-group-item bg-info text-center">
                             <i class="fa-solid fa-route fa-2x text-white bg-info "></i> 
@@ -127,33 +127,33 @@
    <!-- Destacados Section-->
     <section class="d-none d-lg-block">
         <div class=" row text-white  text-center mt-4">
-            <p class=" fs-4 fs-2"> DESTACADOS </p>  
+            <p class=" fs-4 fs-2" id="destacados"> DESTACADOS </p>  
             <p class="px-4 mb-3"> <HR size="5" width="97%" align="center">  </p> 
         </div>              
         <div class=" mt-3 ">   
             <div class="row gap-1 justify-content-evenly" >
-                <div class="card col-10 col-sm-5 col-md-3 p-0 bg-white text-white " style="width: 15rem;" >
-                    <img src="assets/img/card1.jpg" class="card-img-bottom " >
+                <div class="card col-10 col-sm-5 col-md-3 p-0 bg-white text-white " id="carta2" >
+                    <img src="assets/img/card1.jpg" class="card-img-top" >
                     <div class="card-body bg-info">
                             <h5  class="card-titles fw-light text-white">Loren ipsum dolor sit aamet</h5>
                             <p class="card-text text-white">Loren ipsum dolor sit aamet. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
-                <div class="card col-10 col-sm-5 col-md-3 p-0 bg-white text-white" style="width: 14rem;">
-                    <img src="assets/img/card2.jpg" class="card-img-top " width="57" height="">
+                <div class="card col-10 col-sm-5 col-md-3 p-0 bg-white text-white" id="carta2" >
+                    <img src="assets/img/card2.jpg" class="card-img-top" >
                     <div class="card-body bg-info">
                         <h5  class="card-titles fw-light bg-info text-white">Consectetur adipisicing elit</h5>
                         <p class="card-text bg-info text-white">Loren ipsum dolor sit aamet. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
-                <div class="card col-10 col-sm-5 col-md-3 p-0 bg-white text-white" style="width: 15rem;">
+                <div class="card col-10 col-sm-5 col-md-3 p-0 bg-white text-white" id="carta2" >
                     <img src="assets/img/card3.jpg" class="card-img-top" >
                     <div class="card-body bg-info">
                         <h5  class="card-titles fw-light bg-info text-white">Sed do eiusmod tempor incididunt ut labore</h5>
                         <p class="card-text bg-info text-white">Loren ipsum dolor sit aamet. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
-                <div class="card col-10 col-sm-5 col-md-3 p-0 bg-white text-white" style="width: 15rem;">
+                <div class="card col-10 col-sm-5 col-md-3 p-0 bg-white text-white" id="carta2" >
                     <img src="assets/img/card4.jpg" class="card-img-top" >
                     <div class="card-body bg-info">
                         <h5  class="card-titles fw-light bg-info text-white">Ut enim ad minim veniam</h5>
@@ -169,7 +169,7 @@
     <section  class="bg-black">
         <div class= "container text-white d-md-block py-2 mt-5 ">
             <div class=" row text-white  text-center ">
-                <p class=" fs-4 fs-2 "> CONTACTO </p>  
+                <p class=" fs-4 fs-2 " id="contacto"> CONTACTO </p>  
                 <p class="px-4 mb-3"> <HR size="5" width="97%" align="center">  </p> 
             </div>   
             <div class="mb-3">
@@ -184,7 +184,7 @@
                 <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
             </div>
-            <div class="d-flex justify-content-letf  fs-3  mb-3">
+            <div class="d-flex justify-content-letf  fs-3  mb-3 " id="enviar">
                 <button type="button" class="btn btn-primary"> Enviar </button> 
             </div>    
         </div>
